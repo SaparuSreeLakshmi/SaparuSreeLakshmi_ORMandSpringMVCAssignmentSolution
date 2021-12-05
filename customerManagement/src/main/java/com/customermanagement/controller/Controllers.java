@@ -55,7 +55,7 @@ public class Controllers {
 	}
 
 	@PostMapping("/save")
-	public String saveBook(@RequestParam("id") int id, @RequestParam("firstname") String firstName,
+	public String saveCustomer(@RequestParam("id") int id, @RequestParam("firstname") String firstName,
 			@RequestParam("lastname") String lastName, @RequestParam("email") String email) {
 
 		System.out.println(id);
